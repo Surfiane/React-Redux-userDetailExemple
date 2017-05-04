@@ -13,7 +13,7 @@ export default function () {
             firstName: "Amine",
             lastName: "Ben",
             age: 30,
-            description: "Amine he is an Adected coder ",
+            description: "Amine he is an addicted coder ",
             thumbnail: "https://s-media-cache-ak0.pinimg.com/564x/e6/53/77/e65377233fcfc7eac0a71264036b0505.jpg"
         }, {
             id: 3,

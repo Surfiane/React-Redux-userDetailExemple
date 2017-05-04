@@ -3,3 +3,10 @@ $primary: #006699;
 h2 {
 	color: $primary;
 }
+
+img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}
