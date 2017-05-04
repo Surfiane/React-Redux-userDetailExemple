@@ -1,12 +1,17 @@
 import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from "react-dom";
+import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import allReducers from './reducers';
+import App from './components/app';
 
 
 const store = createStore(allReducers);
 
 ReactDOM.render(
-    <h1>Hello World</h1>, document.getElementById('root')
+    <Provider store={store} >
+        <App />
+    </Provider>
+    , document.getElementById('root')
 );
